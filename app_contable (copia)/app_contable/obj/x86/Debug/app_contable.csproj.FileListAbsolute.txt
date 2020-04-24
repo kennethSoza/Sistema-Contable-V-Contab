@@ -1,0 +1,6 @@
+/home/michael/Projects/app_contable/app_contable/bin/Debug/app_contable.exe
+/home/michael/Projects/app_contable/app_contable/bin/Debug/app_contable.pdb
+/home/michael/Projects/app_contable/app_contable/obj/x86/Debug/app_contable.csprojAssemblyReference.cache
+/home/michael/Projects/app_contable/app_contable/obj/x86/Debug/app_contable.csproj.CoreCompileInputs.cache
+/home/michael/Projects/app_contable/app_contable/obj/x86/Debug/app_contable.exe
+/home/michael/Projects/app_contable/app_contable/obj/x86/Debug/app_contable.pdb
