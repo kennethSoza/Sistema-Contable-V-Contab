@@ -19,8 +19,8 @@ USE `SistemaContable` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `SistemaContable`.`empleado` (
   `idempleado` VARCHAR(10) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NOT NULL COMMENT 'id de la tabla',
-  `fecha_ingreso` DATE NOT NULL COMMENT 'Fecha de ingreso del empleado',
-  `cedula` VARCHAR(15) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NOT NULL COMMENT 'Cedula del empleado',
+  `fecha_ingreso` DATE NULL COMMENT 'Fecha de ingreso del empleado',
+  `cedula` VARCHAR(25) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NOT NULL COMMENT 'Cedula del empleado',
   `nombre_cargo` VARCHAR(25) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NULL COMMENT 'nombre del cargo del empleado',
   `nombre_empleado` VARCHAR(30) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NOT NULL COMMENT 'nombre del empleado',
   `apellido_empleado` VARCHAR(30) CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_general_ci' NOT NULL COMMENT 'apellido del empleado',
